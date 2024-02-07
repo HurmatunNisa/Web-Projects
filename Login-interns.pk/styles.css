@@ -1,0 +1,86 @@
+
+body {
+	background: #589ed9;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    padding: 0px;
+	margin: 0px;
+}
+
+#container{
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 18vh;
+    text-align: center;
+}
+
+#header .logo .fa-weibo{
+    font-size: 45px;
+    color: white;
+}
+
+#header h1{
+    font-size: 26px;
+    color: white;
+    margin-top: 10px;
+}
+
+#input-form .container-feilds{
+    background-color: white;
+    border-radius: 10px;
+}
+
+#input-form .container-fields input{
+   width:100%;
+   border: none;
+   padding: 0%;
+   margin: 0%;
+   outline: none;
+   padding-top:15px;
+   padding-bottom: 15px;
+   text-indent: 20px;
+   font-size: 13px;
+   color:#2c3e50;
+
+}
+
+#input-form .container-fields input[type="password"]{
+    border-top: 1px solid #ccc;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+#input-form .container-fields input[type="email"]{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#input-form input[type="submit"]{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #2186D4;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 14px 0px;
+    border-radius: 6px;
+}
+
+#input-form input[type="submit"]:hover{
+    background-color: #0B6AB4;
+    cursor: pointer;
+}
+
+#footer p {
+    color: white;
+    font-size: 15px;
+}
+
+#footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
